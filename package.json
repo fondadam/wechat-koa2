@@ -1,0 +1,19 @@
+{
+  "name": "wechat-koa2",
+  "version": "1.0.0",
+  "description": "Wechat was developed for Koa2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fonda",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "events": "^1.1.1",
+    "koa-bodyparser": "^4.2.0",
+    "log4js": "^2.3.11",
+    "request": "^2.83.0",
+    "xml2js": "^0.4.19"
+  }
+}

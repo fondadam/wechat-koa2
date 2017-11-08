@@ -1,0 +1,37 @@
+{
+  "appenders": {
+    "product": {
+      "type": "dateFile",
+      "pattern": ".yyyy-MM-dd-hh",
+      "filename": "logs/product.log"
+    },
+    "product_filter": {
+      "type": "file",
+      "filename": "logs/product_error.log"
+    },
+    "product_error": {
+      "type": "logLevelFilter",
+      "appender": "product_filter",
+      "level": "error"
+    },
+    "console": {
+      "type": "console"
+    }
+  },
+  "categories": {
+    "default": {
+      "appenders": [
+        "console"
+      ],
+      "level": "all"
+    },
+    "product": {
+      "appenders": [
+        "console",
+        "product",
+        "product_error"
+      ],
+      "level": "all"
+    }
+  }
+}
