@@ -21,7 +21,6 @@ const replyImage = function(data) {
 	
 	const query = ctx.request.query
 	const shouldEncoding = query.encrypt_type === 'aes'
-	console.log(this.aesEncoding(wxTemplate.imageMsg(data)));
   ctx.body = shouldEncoding ? this.aesEncoding(wxTemplate.imageMsg(data)) : wxTemplate.imageMsg(data)
   return data
 }

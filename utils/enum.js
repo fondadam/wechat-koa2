@@ -10,6 +10,8 @@ const msgType = {
   LOCATION: PRE + 'location',
   LINK: PRE + 'link',
 	FILE: PRE + 'file',
+	
+	TULING: PRE + 'tuling',
   
 	CLICK: PRE + 'click',
 	SCAN: PRE + 'scan',

@@ -47,4 +47,7 @@ WeChat.mixin(require('./api/user'))
 // 账号管理
 WeChat.mixin(require('./api/account'))
 
+// 图灵机器人
+WeChat.mixin(require('./api/tuling'))
+
 module.exports = WeChat

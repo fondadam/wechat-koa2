@@ -97,7 +97,6 @@ const sendTemplate = async function (data) {
 			} else {
 				resolve(false)
 			}
-			console.log(result);
 		}).catch(err => {
 			log.error(err)
 			reject(err)

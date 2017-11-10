@@ -6,8 +6,17 @@ module.exports = {
 	"encodingAESKey": "xxxx",
 	"apiDomain": "https://api.weixin.qq.com/",
 	"accessTokenFilePath": "./static/access_token.json",
+	// 图灵ApiKey
+	"tulingApiKey": "65f46644fcc945eeb0c3ef55bf75b799",
+	// 是否开启图灵机器人：1为开启，0为关闭
+	"tulingActive": 0,
+	// 管理员的openid todo
+	"administrator": [],
 	
 	"apiURL": {
+		// 图灵api
+		"tuling": "http://www.tuling123.com/openapi/api",
+		
 		"accessTokenApi": "%scgi-bin/token?grant_type=client_credential&appid=%s&secret=%s",
 		// 个性化菜单
 		"createSpecialMenu": "%scgi-bin/menu/addconditional?access_token=%s",

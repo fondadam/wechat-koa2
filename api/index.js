@@ -19,8 +19,11 @@ class API extends EventEmitter {
 		this.apiURL = config.apiURL
 		
 		this.accessTokenFilePath = config.accessTokenFilePath
+		this.tulingApiKey = config.tulingApiKey
+		this.tulingActive = config.tulingActive
 		
 		this.context = null
+		
 	}
 	get(url, options = {}) {
 		options = Object.assign({}, options, {url})

@@ -47,6 +47,11 @@ const onScan = function(cb) {
 	this.on(msgType.SCAN, cb)
 }
 
+// 若开启了图灵机器人的消息，会监听监听该消息
+const onTuling = function(cb) {
+	this.on(msgType.TULING, cb)
+}
+
 // 监听 自定义菜单点击事件 click
 const onClick = function(cb) {
 	this.on(msgType.CLICK, cb)
@@ -77,6 +82,8 @@ module.exports = {
 	onLink,
 	onFile,
 	onScan,
+	
+	onTuling,
   
 	onClick,
 	onSubscribe,
