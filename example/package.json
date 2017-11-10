@@ -1,0 +1,17 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "Wechat example developed by Koa2",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=product node app.js",
+    "dev": "node app.js"
+  },
+  "author": "Fonda",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.4.1",
+    "koa-router": "^7.2.1",
+    "wechat-koa2": "^1.0"
+  }
+}
