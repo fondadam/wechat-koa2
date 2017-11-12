@@ -1,5 +1,8 @@
-Koa2  微信公众号开发
+# 微信公众号 with Koa2
 
+[![npm version](https://badge.fury.io/js/wechat-koa2.svg)](https://badge.fury.io/js/wechat-koa2)
+
+[API](https://github.com/fondadam/wechat-koa2/wiki)
 
 [DEMO](https://github.com/fondadam/wechat-koa2/blob/master/example/app.js)
 

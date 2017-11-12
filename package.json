@@ -1,10 +1,17 @@
 {
   "name": "wechat-koa2",
-  "version": "1.0.1",
-  "description": "Wechat was developed for Koa2",
+  "version": "1.0.3",
+  "description": "Develope Wechat by using Koa2",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fondadam/wechat-koa2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fondadam/wechat-koa2/issues"
   },
   "author": "Fonda",
   "keywords": [
