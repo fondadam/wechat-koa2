@@ -21,11 +21,14 @@ const getUserInfo = async function (openId, lang) {
 }
 
 // 设置用户备注名
-const updateRemark = async function(tag) {
+const updateRemark = async function(openId, remark) {
 	const accessToken = await this.getAccessToken()
 	
 	const url = util.format(this.apiURL.updateRemark, this.apiDomain, accessToken)
-	const data = {tag}
+	const data = {
+		openId,
+		remark
+	}
 	
 	return new Promise((resolve, reject) => {
 		this.post(url, {json: true, body: data}).then((res) => {

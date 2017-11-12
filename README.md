@@ -1,10 +1,10 @@
 Koa2  微信公众号开发
 
 
-[DEMO](./examples)
+[DEMO](https://github.com/fondadam/wechat-koa2/blob/master/example/app.js)
 
 
-###TODO:
+### TODO
 - [x] 封装图灵机器人接口
 
 - [x] 微信服务器认证接口

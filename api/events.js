@@ -42,7 +42,7 @@ const onFile = function(cb) {
 	this.on(msgType.FILE, cb)
 }
 
-// 监听 文件消息：scan
+// 监听 二维码被扫描事件：scan
 const onScan = function(cb) {
 	this.on(msgType.SCAN, cb)
 }
